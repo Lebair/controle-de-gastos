@@ -677,7 +677,7 @@ def main() -> None:
             .reset_index().sort_values("Valor", ascending=True)
         )
         n_cats = len(top_cats)
-        chart_height_top = max(500, n_cats * 42 + 80)
+        chart_height_top = max(600, n_cats * 42 + 80)
         fig_top = go.Figure(go.Bar(
             x=top_cats["Valor"], y=top_cats["Categoria"], orientation="h",
             marker_color="#1A5276",
