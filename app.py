@@ -128,6 +128,15 @@ section.main {{
     padding: 18px 22px 14px;
     background-color: {t['bg_card']} !important;
 }}
+[data-testid="stPopoverBody"] *,
+[data-testid="stPopoverBody"] > div,
+[data-testid="stPopoverBody"] > div > div,
+[data-testid="stPopoverBody"] [data-testid="stVerticalBlock"],
+[data-testid="stPopoverBody"] [data-testid="stVerticalBlock"] > div,
+[data-testid="stPopoverBody"] [data-testid="element-container"],
+[data-testid="stPopoverBody"] [data-testid="stMarkdownContainer"] {{
+    background-color: {t['bg_card']} !important;
+}}
 [data-testid="stPopoverBody"] p,
 [data-testid="stPopoverBody"] label,
 [data-testid="stPopoverBody"] span,
