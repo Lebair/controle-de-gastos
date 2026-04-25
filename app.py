@@ -521,7 +521,6 @@ def main() -> None:
             st.selectbox("Condição", cond_opts,
                          key="filter_cond", label_visibility="collapsed")
 
-            st.divider()
             st.toggle("🌙 Modo escuro", key="dark_mode")
             if st.button("↺ Recarregar dados", use_container_width=True):
                 st.cache_data.clear(); st.rerun()
