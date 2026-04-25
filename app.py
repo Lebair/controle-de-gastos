@@ -105,6 +105,10 @@ section.main {{
 .nav-sub   {{ color: rgba(255,255,255,.5) !important; font-size: 0.77rem; }}
 
 /* ── Hamburger / popover button ── */
+[data-testid="stPopover"],
+[data-testid="stPopover"] > div {{
+    background-color: transparent !important;
+}}
 [data-testid="stPopover"] > button,
 [data-testid="stPopover"] > button:focus {{
     background: rgba(255,255,255,0.11) !important;
