@@ -1,0 +1,17 @@
+# PyInstaller
+dist/
+build/
+Output/
+*.spec.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# VS Code
+.vscode/
+
+# Sistema
+Thumbs.db
+desktop.ini
