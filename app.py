@@ -232,10 +232,10 @@ section.main {{
 }}
 
 /* ── Selectbox (inclui dentro do popover portal) ── */
-[data-baseweb="select"] {{
-    background-color: {t['input_bg']} !important;
-}}
+[data-baseweb="select"],
 [data-baseweb="select"] > div,
+[data-baseweb="select"] > div > div,
+[data-baseweb="select"] > div > div > div,
 [data-baseweb="select"] > div:first-child {{
     background-color: {t['input_bg']} !important;
     border-color: {t['border']} !important;
