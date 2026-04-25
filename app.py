@@ -665,7 +665,7 @@ def main() -> None:
             margin=dict(t=10, b=10, l=10, r=10), showlegend=False,
             plot_bgcolor=t["chart_bg"], paper_bgcolor=t["chart_bg"],
             font=dict(size=14, color=t["chart_font"]),
-            height=460,
+            height=600,
         )
         st.plotly_chart(fig_pie, use_container_width=True)
 
